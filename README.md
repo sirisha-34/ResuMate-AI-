@@ -1,4 +1,4 @@
-<img src="assets/logo.jpeg" width="30"/> **ResuMate AI – Smart Resume Analyzer using NLP**
+<img src="assets/logo.jpeg" width="30" **ResuMate AI – Smart Resume Analyzer using NLP**/>
 
 ResuMate AI is an intelligent resume evaluation system that simulates how Applicant Tracking Systems (ATS) screen resumes using NLP and Machine Learning. It provides personalized feedback, keyword match scores, and visual analysis — helping job seekers refine their resumes to match targeted job descriptions and stand out in a competitive job market.
 
@@ -68,9 +68,12 @@ In today’s job landscape, resumes are often filtered by automated systems befo
 
 🚀 **Run Locally**
 
-git clone https://github.com/your-username/resumate-ai.git
+git clone https://github.com/sirisha-34/ResuMate-AI.git
+
 cd resumate-ai
+
 pip install -r requirements.txt
+
 streamlit run app.py
 
 ---
@@ -83,6 +86,7 @@ Got a feature idea? Feel free to open an issue or submit a pull request. All con
 
 👩‍💻 **Author**
 T SIREESHA
+
  AI | NLP | ResumeTech Enthusiast | Passionate about building intelligent job-search tools.
 
 ---
