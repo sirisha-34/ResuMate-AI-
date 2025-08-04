@@ -3,18 +3,30 @@ __pycache__/
 *.pyo
 *.pyd
 *.so
+
+# Jupyter and VSCode
 .ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Virtual environments
 venv/
 env/
 ENV/
 .venv/
-.vscode/
-.idea/
+
+# OS/system files
 .DS_Store
 Thumbs.db
+
+# Logs
 *.log
+
+# Streamlit secrets/configs
 .streamlit/config.toml
 .streamlit/secrets.toml
+
+# Model and weight files
 *.h5
 *.pkl
 *.joblib
@@ -22,22 +34,30 @@ Thumbs.db
 *.pt
 *.tflite
 *.sav
-outputs/
-__outputs__/
-*.png
-*.jpg
-*.jpeg
-*.pdf
-*.tmp
-*.bak
-.env
+
+# Allow specific assets and outputs (even if *.jpeg is added above)
+!assets/logo.jpeg
+!outputs/
+
+# Node / frontend
 node_modules/
 package-lock.json
 yarn.lock
+
+# Build/dist
 dist/
 build/
+*.egg-info/
+
+# Databases and compressed files
 *.sqlite3
 *.db
 *.tar.gz
 *.zip
-*.egg-info/
+
+# Ignore backup/temp
+*.tmp
+*.bak
+
+# Ignore environment files
+.env
