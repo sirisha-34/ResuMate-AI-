@@ -1,0 +1,8 @@
+We are looking for a skilled Full Stack Developer with expertise in Python, React.js, and cloud platforms like AWS. The ideal candidate should be able to build APIs, manage databases, and work in an agile environment.
+
+Key Skills:
+- Python
+- React.js
+- AWS
+- CI/CD
+- Communication Skills
